@@ -3,34 +3,17 @@
 	00FE5D8DFEF9EE7911CA2CB3 = {
 		activeExec = 0;
 		executables = (
-			26EFAFA800D6E87E08CA2CE9,
+			2DBDAA8D0290492F0000010E,
 		);
 	};
 	00FE5D97FEF9EFA211CA2CB3 = {
 		activeExec = 0;
 	};
-	0A8198BE00571E3511CA2CEA = {
+	2DBDAA8D0290492F0000010E = {
 		activeArgIndex = 2147483647;
 		argumentStrings = (
 		);
 		debuggerPlugin = GDBDebugging;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		isa = PBXExecutable;
-		name = jam;
-		shlibInfoDictList = (
-		);
-		sourceDirectories = (
-		);
-	};
-	26EFAFA800D6E87E08CA2CE9 = {
-		activeArgIndex = 2147483647;
-		argumentStrings = (
-		);
-		debuggerPlugin = GDBDebugging;
-		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -41,21 +24,42 @@
 		sourceDirectories = (
 		);
 	};
+	2DBDAA8E0290492F0000010E = {
+		activeArgIndex = 2147483647;
+		argumentStrings = (
+		);
+		debuggerPlugin = GDBDebugging;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = jam;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
 	3C561387FEEF59C211CA2CB3 = {
 		activeBuildStyle = 07B3C7DFFFA7A65311CA2CEA;
-		activeExecutable = 26EFAFA800D6E87E08CA2CE9;
+		activeExecutable = 2DBDAA8D0290492F0000010E;
 		activeTarget = 3C5613D6FEEF59C211CA2CB3;
 		executables = (
-			26EFAFA800D6E87E08CA2CE9,
-			0A8198BE00571E3511CA2CEA,
+			2DBDAA8D0290492F0000010E,
+			2DBDAA8E0290492F0000010E,
 		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 43014186;
+		};
+		projectwideBuildSettings = {
+			SYMROOT = "/Volumes/MattsData/mmorse/Developer/ProjectBuilder Extras/Plug-ins";
+		};
 		wantsIndex = 1;
 		wantsSCM = -1;
 	};
 	3C5613D6FEEF59C211CA2CB3 = {
 		activeExec = 0;
 		executables = (
-			0A8198BE00571E3511CA2CEA,
+			2DBDAA8E0290492F0000010E,
 		);
 	};
 }
