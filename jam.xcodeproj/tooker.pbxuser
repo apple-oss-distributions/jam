@@ -1,8 +1,7 @@
 // !$*UTF8*$!
 {
 	3C561387FEEF59C211CA2CB3 /* Project object */ = {
-		activeBuildConfigurationName = Development;
-		activeBuildStyle = 07B3C7DFFFA7A65311CA2CEA /* Development */;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = 98D6987A00A2035405CA2923 /* jam */;
 		activeTarget = 3C5613D6FEEF59C211CA2CB3 /* jam */;
 		codeSenseManager = 8D63E83C080DD0C300CAD98D /* Code sense */;
@@ -17,7 +16,7 @@
 					20,
 					242,
 					20,
-					48.1626,
+					48,
 					43,
 					43,
 					20,
@@ -32,7 +31,7 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 135123136;
+			PBXPerProjectTemplateStateSaveDate = 171592178;
 			PBXWorkspaceContents = (
 				{
 					LeftSlideOut = {
@@ -353,12 +352,12 @@
 					WindowLocation = "{105, 130}";
 				},
 			);
-			PBXWorkspaceStateSaveDate = 135123136;
+			PBXWorkspaceStateSaveDate = 171592178;
 		};
 		sourceControlManager = 8D63E83B080DD0C300CAD98D /* Source Control */;
 		userBuildSettings = {
-			OBJROOT = "$(SYMROOT)";
-			SYMROOT = "/Volumes/Hourman/Users/tooker/Developer/Products/Project Builder/TOT/";
+			OBJROOT = /var/tmp/tooker/Products/Xcode/Objects;
+			SYMROOT = /var/tmp/tooker/Products/Xcode;
 		};
 	};
 	3C5613D6FEEF59C211CA2CB3 /* jam */ = {
@@ -368,27 +367,28 @@
 		);
 	};
 	8D63E83B080DD0C300CAD98D /* Source Control */ = {
-		fallbackIsa = XCSourceControlManager;
-		isSCMEnabled = 0;
 		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 1;
 		scmConfiguration = {
+			SubversionToolPath = /usr/bin/svn;
 		};
-		scmType = "";
+		scmType = scm.subversion;
 	};
 	8D63E83C080DD0C300CAD98D /* Code sense */ = {
-		indexTemplatePath = "";
 		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
 	};
 	98D6987A00A2035405CA2923 /* jam */ = {
+		isa = PBXExecutable;
 		activeArgIndex = 2147483647;
 		activeArgIndices = (
 		);
 		argumentStrings = (
 		);
+		autoAttachOnCrash = 1;
 		configStateDict = {
 		};
-		cppStopOnCatchEnabled = 0;
-		cppStopOnThrowEnabled = 0;
 		customDataFormattersEnabled = 1;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
@@ -397,13 +397,8 @@
 		);
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
-		isa = PBXExecutable;
 		libgmallocEnabled = 0;
 		name = jam;
-		shlibInfoDictList = (
-		);
-		shlibInfoDictList_v2 = (
-		);
 		sourceDirectories = (
 		);
 	};
